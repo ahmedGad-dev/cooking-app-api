@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "core-js": "^3.25.0",
+    "fracty": "^1.0.11",
+    "parcel": "^2.7.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.54.5"
+  },
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ahmed Gad",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0"
+  }
+}
