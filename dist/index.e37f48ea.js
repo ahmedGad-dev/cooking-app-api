@@ -543,6 +543,8 @@ var _searchView = require("./views/searchView");
 var _searchViewDefault = parcelHelpers.interopDefault(_searchView);
 var _resultsView = require("./views/resultsView");
 var _resultsViewDefault = parcelHelpers.interopDefault(_resultsView);
+var _paginationView = require("./views/paginationView");
+var _paginationViewDefault = parcelHelpers.interopDefault(_paginationView);
 // This is coming from parcel to save the state in the browser
 if (module.hot) module.hot.accept();
 const fetchReciecpe = async ()=>{
@@ -567,18 +569,32 @@ const controlSearchResults = async (query)=>{
         await _model.loadSreachResults(query1);
         (0, _searchViewDefault.default).clear();
         (0, _resultsViewDefault.default).render(_model.getSearchResultsPage());
+        (0, _paginationViewDefault.default).render(_model.state.search);
     } catch (error) {
         console.log(error);
     }
 };
+const controlPagination = (goToPage)=>{
+    //the render method defined in the view overwrides everything previously in the view because it runs the clear method
+    (0, _resultsViewDefault.default).render(_model.getSearchResultsPage(goToPage));
+    (0, _paginationViewDefault.default).render(_model.state.search);
+};
+const controlServings = ()=>{
+    //update Recipe servings
+    _model.updateServings(6);
+    //update the recipe view
+    (0, _receipeViewJsDefault.default).render(_model.state.recipe);
+};
 // The fetch recipe controller function is passed to the handler render in the view as argument to listen to it's change as the publisher
 const init = ()=>{
     (0, _receipeViewJsDefault.default).addHandlerRender(fetchReciecpe);
+    (0, _receipeViewJsDefault.default).addHandlerUpdateService(controlServings);
     (0, _searchViewDefault.default).addHandlerSearch(controlSearchResults);
+    (0, _paginationViewDefault.default).addHandlerPaginate(controlPagination);
 };
 init();
 
-},{"core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./model":"Y4A21","./views/receipeView.js":"inPdx","./views/searchView":"9OQAM","regenerator-runtime":"dXNgZ","./views/resultsView":"cSbZE"}],"49tUX":[function(require,module,exports) {
+},{"core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./model":"Y4A21","./views/receipeView.js":"inPdx","./views/searchView":"9OQAM","regenerator-runtime":"dXNgZ","./views/resultsView":"cSbZE","./views/paginationView":"6z7bi"}],"49tUX":[function(require,module,exports) {
 // TODO: Remove this module from `core-js@4` since it's split to modules listed below
 require("../modules/web.clear-immediate");
 require("../modules/web.set-immediate");
@@ -2290,6 +2306,7 @@ parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
 parcelHelpers.export(exports, "loadSreachResults", ()=>loadSreachResults);
 parcelHelpers.export(exports, "getSearchResultsPage", ()=>getSearchResultsPage);
+parcelHelpers.export(exports, "updateServings", ()=>updateServings);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _configJs = require("./config.js");
 var _helpers = require("./helpers");
@@ -2345,6 +2362,13 @@ const getSearchResultsPage = (page = state.search.page)=>{
     const end = page * state.search.resultsPerPage //start from 1 (1 * 10) = 1
     ;
     return state.search.results.slice(start, end);
+};
+const updateServings = (newServings)=>{
+    state.recipe.ingredients.forEach((ingredient)=>{
+        //quantity = oldQu * newServings / oldServings
+        ingredient.quantity = ingredient.quantity * newServings / state.recipe.servings;
+    });
+    state.recipe.servings = newServings;
 };
 
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"k5Hzs","./helpers":"hGI1E"}],"k5Hzs":[function(require,module,exports) {
@@ -2407,6 +2431,12 @@ class RecipeView extends (0, _viewDefault.default) {
             "hashchange",
             "load"
         ].forEach((event)=>window.addEventListener(event, handler));
+    };
+    addHandlerUpdateService = (handler)=>{
+        this._parentEl.addEventListener("click", (e)=>{
+            const btn = e.target.closest(".btn--tiny");
+            if (!btn) return;
+        });
     };
     _generateMarkup() {
         return `
@@ -2644,6 +2674,7 @@ class View {
         if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const markup = this._generateMarkup();
+        //makes it so that whenever we add new html to the page the parent element always cleared
         this._clear();
         this._parentEl.insertAdjacentHTML("afterbegin", markup);
     }
@@ -2752,6 +2783,88 @@ class ResultsView extends (0, _viewDefault.default) {
 }
 exports.default = new ResultsView();
 
-},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["fA0o9","aenu9"], "aenu9", "parcelRequire7e89")
+},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6z7bi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _view = require("./View");
+var _viewDefault = parcelHelpers.interopDefault(_view);
+var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
+class PaginationView extends (0, _viewDefault.default) {
+    _parentEl = document.querySelector(".pagination");
+    //_errorMessage = 'No Recipes found for your search, please try again'   
+    // _messageSuccess = 'Complete'
+    addHandlerPaginate = (handler)=>{
+        this._parentEl.addEventListener("click", (e)=>{
+            const btn = e.target.closest(".btn--inline");
+            if (!btn) return;
+            const goToPage = +btn.dataset.goto;
+            handler(goToPage);
+        });
+    };
+    _generateMarkup() {
+        const curPage = this._data.page;
+        const numOfPages = Math.ceil(this._data.results.length / this._data.resultsPerPage) //Math.ceil to round the decimal to next integer
+        ;
+        //first page and there are otheres
+        if (curPage === 1 && numOfPages > 1) return `
+              <button class="btn--inline btn-current-page" disabled='true'>         
+                <span>page ${curPage}</span>
+              </button>
+
+              <button data-goto="${curPage + 1}" class="btn--inline pagination__btn--next">
+                <span>Page ${curPage + 1}</span>
+                <svg class="search__icon">
+                  <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+                </svg>
+              </button> 
+                `;
+        // total pages are 1 page only
+        if (numOfPages === 1) return `
+              <button data-goto="${curPage + 1}"  class="btn--inline pagination__btn--prev">
+               <svg class="search__icon">
+                 <use href="src/img/icons.svg#icon-arrow-left"></use>
+               </svg>
+               <span>1</span>
+              </button>
+            `;
+        //last page
+        if (curPage === numOfPages && numOfPages > 1) return `
+          <button data-goto="${curPage - 1}"  class="btn--inline pagination__btn--prev">
+           <svg class="search__icon">
+             <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
+           </svg>         
+          </button>
+
+          <button class='btn--inline btn-current-page' disabled='true'>
+           <span>page ${curPage} </span>
+          </button>
+        `;
+        //pages after first and before last
+        if (curPage < numOfPages) return `
+              <button data-goto="${curPage - 1}" class="btn--inline pagination__btn--prev">
+              <svg class="search__icon">
+                <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
+              </svg>
+              <span>Page ${curPage - 1}</span>
+            </button>
+
+            <button class="btn--inline btn-current-page" disabled='true'>         
+              <span>${curPage}</span>
+            </button>
+
+            <button data-goto="${curPage + 1}"  class="btn--inline pagination__btn--next">
+              <span>Page ${curPage + 1}</span>
+              <svg class="search__icon">
+                <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+              </svg>
+            </button> 
+              `;
+        return "";
+    }
+}
+exports.default = new PaginationView();
+
+},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"loVOp"}]},["fA0o9","aenu9"], "aenu9", "parcelRequire7e89")
 
 //# sourceMappingURL=index.e37f48ea.js.map

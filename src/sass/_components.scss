@@ -90,6 +90,7 @@
   }
 }
 
+
 .btn--round {
   background-image: $gradient;
   border-radius: 50%;
@@ -117,6 +118,11 @@
     width: 2.5rem;
     fill: #fff;
   }
+}
+
+.btn-current-page{
+   background-color: $color-primary ;
+   color: $color-grey-light-1 ;
 }
 
 .btn--tiny {

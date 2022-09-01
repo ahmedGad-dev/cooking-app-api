@@ -51,7 +51,6 @@ export const loadSreachResults = async(query) => {
     }
 }
 
-
 // this function serves for pagination
 export const getSearchResultsPage = (page = state.search.page) => {
     state.search.page = page
@@ -62,3 +61,11 @@ export const getSearchResultsPage = (page = state.search.page) => {
 }
 
 
+export const updateServings = (newServings) => {
+    state.recipe.ingredients.forEach((ingredient) =>{ //choosed forEach over map because we don't want to return anything
+        //quantity = oldQu * newServings / oldServings
+        ingredient.quantity = ingredient.quantity * newServings / state.recipe.servings
+    })
+
+    state.recipe.servings = newServings
+}

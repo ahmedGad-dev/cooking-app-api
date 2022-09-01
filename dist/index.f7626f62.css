@@ -161,6 +161,11 @@ body {
   fill: #fff;
 }
 
+.btn-current-page {
+  color: #f9f5f3;
+  background-color: #f38e82;
+}
+
 .btn--tiny {
   height: 2rem;
   width: 2rem;
@@ -497,8 +502,10 @@ body {
 }
 
 .pagination {
+  justify-content: space-around;
   margin-top: auto;
   padding: 0 3.5rem;
+  display: flex;
 }
 
 .pagination:after {

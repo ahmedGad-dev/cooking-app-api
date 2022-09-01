@@ -8,6 +8,7 @@ export default class View {
 
         this._data = data
         const markup = this._generateMarkup()
+        //makes it so that whenever we add new html to the page the parent element always cleared
         this._clear()
         this._parentEl.insertAdjacentHTML('afterbegin', markup)
     }
