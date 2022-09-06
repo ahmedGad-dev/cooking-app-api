@@ -8,6 +8,8 @@ import ResultsView from './views/resultsView';
 import PaginationView from './views/paginationView';
 import BookmarksView from './views/bookmarkView';
 import bookmarkView from './views/bookmarkView';
+import AddRecipeView from './views/addRecipeView';
+import { MODAL_CLOSE_SEC } from './config';
 
 // This is coming from parcel to save the state in the browser
 if(module.hot){
@@ -28,7 +30,7 @@ const fetchReciecpe = async() => {
   }
 }
 
-const controlSearchResults = async(query) => {
+const controlSearchResults = async() => {
   try {
       ResultsView.renderSpinner()
       const query = SearchView.getQuery()
@@ -77,6 +79,28 @@ const controlSearchResults = async(query) => {
     BookmarksView.render(model.state.bookmarks)
   }
 
+  const controlAddRecipe = async(newRecipe) => {
+     try {
+       AddRecipeView.renderSpinner()
+       await model.uploadRecipe(newRecipe)  //upload recipe is an async function so we use await when expecting response
+       RecipeView.render(model.state.recipe)
+
+       setTimeout(() =>{
+        AddRecipeView.toggleWindowOverlay()   
+        AddRecipeView.renderSuccess()    
+       }, MODAL_CLOSE_SEC * 1000)
+       
+        //Add the recipe to bookmarks
+      // bookmarkView.render(model.state.recipe)  
+       
+       //change the id to url using the history api
+       window.history.pushState(null, '' ,`#${model.state.recipe.id}`) // state, title, url 
+   //    window.history.back //automatically returns to the previous pages
+     } catch (error) {
+       AddRecipeView.renderError(error.message)
+     }
+  }
+
 // The fetch recipe controller function is passed to the handler render in the view as argument to listen to it's change as the publisher
 const init = () => {
   BookmarksView.addHandlerRender(controlBookMarks)
@@ -85,6 +109,7 @@ const init = () => {
   RecipeView.addBookMarkHandler(controlAddBookMark)
   SearchView.addHandlerSearch(controlSearchResults)
   PaginationView.addHandlerPaginate(controlPagination)
+  AddRecipeView.addHandlerUpload(controlAddRecipe)
 }
 
 init()

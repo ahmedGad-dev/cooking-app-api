@@ -1,4 +1,4 @@
-7635
+7637
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\regions\JE.js133060718529573885 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\error\to-string.js133060788802073507 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\src\_export_star.mjs133060718485463792 0
@@ -10,7 +10,7 @@
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\function\index.js133060788783420987 0
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\number\parse-int.js133060788792203618 0
 108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\array-buffer133060788796417831 1
-88E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\controller.js133065034801715844 0
+88E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\controller.js133069590374408223 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\math\cbrt.js133060788746826745 0
 124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\virtual\unique-by.js133060788803248654 0
 95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\node-gyp-build133060718309603537 1
@@ -30,7 +30,7 @@
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\reflect\get-metadata.js133060788779987042 0
 109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\sass\types\value\string.d.ts133060026500274286 0
 109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\optimizer-terser\src133060718239792212 1
-72E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist133065034950357190 1
+72E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist133069619771281787 1
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\csso\lib\replace\property\font.js133060718355980057 0
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\string\virtual\sub.js133060788798111130 0
 96E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\forkify-flowchart-part-2.png132886955210000000 0
@@ -53,9 +53,13 @@
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\watcher\src\unix\fts.cc133060718318841685 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\instance\flat.js133060788770652432 0
 96E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\forkify-flowchart-part-3.png132886955210000000 0
-93E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\sass\_components.scss132886955210000000 0
+100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\lib\parse.js133060718369747990 0
+113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array-buffer\slice.js133060788796318015 0
+97E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\addRecipeView.js133069617512343010 0
+94E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nth-check\lib133060718350379219 1
+93E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\sass\_components.scss133065130744435006 0
 89E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\entities133060718343062690 1
-78E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\index.html133064178632997587 0
+78E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\index.html133068627379826057 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\transformer-image\src133060718317162571 1
 85E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\package-lock.json133061919306134832 0
 99E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\src\lmdb-js.h133060718485164598 0
@@ -136,7 +140,7 @@
 128E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133060718485699520 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\svgo\plugins\removeEmptyText.js133060718369808670 0
 124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\typed-array\last-index-of.js133060788789043095 0
-95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\receipeView.js133064061949681393 0
+95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\receipeView.js133069606985030032 0
 87E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\base-x133060718254354077 1
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\typed-array\subarray.js133060788798204933 0
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\sort.js133060788796940462 0
@@ -156,6 +160,14 @@
 90E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\sass\_preview.scss132886955210000000 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\string\virtual\fixed.js133060788769833851 0
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\node-releases\data\processed\envs.json133060718193572944 0
+148E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two\package.json133060718523740543 0
+138E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\040-presets.md133060718371068681 0
+110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\set-immediate.js133060788795822253 0
+113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\symbol\split.js133060788797346489 0
+129E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\element-from-point.js133060718526422272 0
+109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\array\keys.js133060788788588962 0
+144E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-mdb.txt133060718521549551 0
+96E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\bookmarkView.js133069611695908270 0
 100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\is-number\README.md133060026491850357 0
 103E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\js-tokens\CHANGELOG.md133060718134454446 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\yaml\dist\PlainValue-ec8e588e.js133060718350544175 0
@@ -166,7 +178,7 @@
 103E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\is-binary-path\license133060026491870259 0
 125E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\object\define-properties.js133060788751480138 0
 123E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\font-kerning.js133060718527669476 0
-96E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\sass\_searchResults.scss132886955210000000 0
+96E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\sass\_searchResults.scss133065127753767049 0
 123E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\dom-collections\for-each.js133060788772134019 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\posthtml-render\dist\index.d.ts133060718309612884 0
 101E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\htmlnano\lib\modules133060718351046704 1
@@ -191,7 +203,7 @@
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\typed-array\includes.js133060788783041254 0
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\graph\test\AdjacencyList.test.js133060718317725691 0
 101E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\weak-lru-cache\tests133060718309133618 1
-84E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\config.js133064285895553911 0
+84E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\config.js133068621420683627 0
 91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\css-select133060718350389196 1
 89E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\anymatch133060026492478045 1
 109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\timsort\build\timsort.min.js133060718317303422 0
@@ -204,7 +216,7 @@
 127E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\node-gyp-build-optional-packages\build-test.js133060718204917688 0
 132E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\core\test\fixtures\config-extends-not-found133060718336158071 1
 126E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\referrer-policy.js133060718535037159 0
-85E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\helpers.js133062464425254761 0
+85E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\helpers.js133069586920193163 0
 108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\source-map-js\source-map.js133060026494633191 0
 118E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\svg-img.js133060718536470901 0
 104E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\index.js133060788785730904 0
@@ -213,7 +225,7 @@
 92E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\buffer-from133060718244308377 1
 120E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\utility-types\dist\utility-types.js.map133060718335508970 0
 106E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\csso\lib\replace\color.js133060718336840526 0
-83E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\model.js133064297825817259 0
+83E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\model.js133069619769586592 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\core\lib\public\Bundle.js133060718356129420 0
 106E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\package.json133060718538503384 0
 108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\entities\lib\index.d.ts.map133060718340865778 0
@@ -223,7 +235,7 @@
 132E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_dump.c133060718360325525 0
 92E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@jridgewell133060717985099638 1
 130E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\runtime-js\lib\helpers\node\css-loader.js133060718335639007 0
-80E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views133064300338649458 1
+80E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views133067608217278986 1
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\object\define-property.js133060788751659221 0
 108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\reflect\index.js133060788783838190 0
 102E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\bin\terser.mjs133060718371401776 0
@@ -233,12 +245,12 @@
 131E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\object\get-own-property-descriptor.js133060788781412330 0
 86E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\chalk133060718316862774 1
 105E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\string\sup.js133060788798474237 0
-98E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\paginationView.js133065034946144720 0
+98E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\paginationView.js133065145963928471 0
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nth-check\lib\esm\parse.js.map133060718340337462 0
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nth-check\lib\esm\package.json133060718317927347 0
 99E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\map133060788783472035 1
 107E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\react-refresh\package.json133060718318988788 0
-95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\resultsView.js133064191974283315 0
+95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\resultsView.js133069618978715247 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\string\virtual\blink.js133060788746603338 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\utils\src\bundle-url.js133060718318371322 0
 122E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\blobbuilder.js133060718371523456 0
@@ -255,7 +267,7 @@
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\node_modules\node-addon-api133060718343177989 1
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\is-callable.js133060788786485107 0
 89E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\boolbase133060718192708465 1
-88E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\View.js133064195191178278 0
+88E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\js\views\View.js133066679051166204 0
 122E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\typed-array\int16-array.js133060788786171072 0
 105E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\domelementtype\readme.md133060718318209971 0
 100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\json5\lib\util.d.ts133060718343310419 0
@@ -267,17 +279,6 @@
 135E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\optimizer-image\parcel-image.darwin-arm64.node133060718340558922 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\instance\find-last.js133060788768456279 0
 84E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\src\img\logo.png132886955210000000 0
-108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\utility-types\dist\index.js133060718257373808 0
-129E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\node_modules\node-addon-api\tools\README.md133060718343390212 0
-117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\array\virtual\reduce.js133060788793363169 0
-119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\set-to-string-tag.js133060788796042452 0
-122E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\string\virtual\iterator.js133060788788242855 0
-100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\fracty\package.json133061919304429549 0
-123E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\node_modules\commander\package.json133060718240631640 0
-121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_object_spread_props.js133060718370584947 0
-112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\dotenv-expand\dotenv-expand.png133060718138978798 0
-118E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\svgo\plugins\moveGroupAttrsToElems.js133060718356289004 0
-99E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\chrome-trace-event133060718312133748 1
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\typed-array\find-index.js133060788767865136 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\v8-compile-cache\v8-compile-cache.js133060718142054333 0
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\make-built-in.js133060788789464880 0
@@ -376,6 +377,17 @@
 126E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\css-paged-media.js133060718524100352 0
 95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\clone\clone.js133060718304616873 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\svgo\plugins\removeXMLProcInst.js133060718371248204 0
+108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\utility-types\dist\index.js133060718257373808 0
+129E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\node_modules\node-addon-api\tools\README.md133060718343390212 0
+117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\array\virtual\reduce.js133060788793363169 0
+119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\set-to-string-tag.js133060788796042452 0
+122E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\string\virtual\iterator.js133060788788242855 0
+100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\fracty\package.json133061919304429549 0
+123E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\node_modules\commander\package.json133060718240631640 0
+121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_object_spread_props.js133060718370584947 0
+112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\dotenv-expand\dotenv-expand.png133060718138978798 0
+118E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\svgo\plugins\moveGroupAttrsToElems.js133060718356289004 0
+99E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\chrome-trace-event133060718312133748 1
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\typed-array\subarray.js133060788798193885 0
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\object\to-string.js133060788802138582 0
 94E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\color-convert133060718311538772 1
@@ -745,11 +757,11 @@
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\array\unshift.js133060788803359080 0
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array\virtual\splice.js133060788797168128 0
 101E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\ordered-binary\tests133060718306926547 1
+111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\web\dom-collections.js133060788752580994 0
+124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\source-map-support\register-hook-require.js133060718230874279 0
 95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\.bin\json5.cmd133060718543072309 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\lib\compress\common.js133060718346898837 0
 91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\lib133060718370988900 1
-111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\web\dom-collections.js133060788752580994 0
-124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\source-map-support\register-hook-require.js133060718230874279 0
 109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\node-gyp-build\build-test.js133060718220996961 0
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\matchmedia.js133060718530697525 0
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\typed-array\for-each.js133060788777767887 0
@@ -1383,7 +1395,7 @@
 107E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\get-iterator.js133060788779305047 0
 118E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\typed-array\methods.js133060788790753257 0
 97E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\tslib\tslib.d.ts133060718319026946 0
-91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.f7626f62.css133065034856228006 0
+91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.f7626f62.css133069619401818851 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\object\create.js133060788751125005 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\iterator\for-each.js133060788777657959 0
 104E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\to-regex-range\index.js133060026491660858 0
@@ -1454,7 +1466,6 @@
 106E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\lib\mozilla-ast.js133060718361603169 0
 108E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\string\trim.js133060788802735260 0
 120E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\htmlparser2\lib\WritableStream.d.ts.map133060718335759442 0
-100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\terser\lib\parse.js133060718369747990 0
 109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\postcss-value-parser\LICENSE133060718116425454 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\transformer-posthtml\src133060718304597506 1
 126E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\input-minlength.js133060718529128896 0
@@ -2166,7 +2177,6 @@
 127E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_skip_first_generator_next.js133060718371168427 0
 98E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\json5\lib\util.js133060718335818965 0
 101E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nullthrows\README.md133060718308983973 0
-94E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nth-check\lib133060718350379219 1
 98E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nth-check\LICENSE133060718116099921 0
 103E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\nth-check\package.json133060718318527308 0
 100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\regexp133060788802083472 1
@@ -2371,8 +2381,8 @@
 116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\reflect\construct.js133060788748666286 0
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\mdn-data\css\units.schema.json133060718350766326 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\string\bold.js133060788746693949 0
-117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\mdn-data\api\inheritance.schema.json133060718336068295 0
 130E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest3.c133060718371910675 0
+117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\mdn-data\api\inheritance.schema.json133060718336068295 0
 97E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\binding.gyp133060718485064870 0
 116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\modules\es.function.name.js133060788756522283 0
 90E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dist133060718486729754 1
@@ -2513,13 +2523,6 @@
 138E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133060718371960544 0
 133E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\array-from-constructor-and-list.js133060788744955461 0
 138E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c133060718382501351 0
-148E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two\package.json133060718523740543 0
-138E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\040-presets.md133060718371068681 0
-110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\set-immediate.js133060788795822253 0
-113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\symbol\split.js133060788797346489 0
-129E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\element-from-point.js133060718526422272 0
-109E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\actual\array\keys.js133060788788588962 0
-144E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-mdb.txt133060718521549551 0
 104E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\math\tanh.js133060788800152053 0
 116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\ie8-dom-define.js133060788782728527 0
 137E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\tooltag133060718339881024 0
@@ -2787,7 +2790,7 @@
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\array\includes.js133060788783051615 0
 103E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\entities\lib\generated133060718343672624 1
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\symbol\replace-all.js133060788794450709 0
-83E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.html133065034855523901 0
+83E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.html133069619401798898 0
 131E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\transformer-babel\src\remapAstLocations.js133060718336930197 0
 128E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\css-width-stretch.js133060718525292072 0
 104E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\htmlnano\docs\README.md133060718371790535 0
@@ -2968,8 +2971,6 @@
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\electron-to-chromium\package.json133060718335748708 0
 140E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.umd.js.map133060718306222807 0
 105E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\dotenv-expand\index.d.ts133060718226850526 0
-115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\instance\entries.js133060788754423208 0
-112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\math-log1p.js133060788790522851 0
 102E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\dotenv-expand\LICENSE133060718252758957 0
 91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\dotenv\lib133060718317896368 1
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\string\match.js133060788790429237 0
@@ -3268,7 +3269,7 @@
 100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\css-tree\lib\parser133060718485364057 1
 100E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\css-tree\lib\syntax133060718382524158 1
 103E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\css-tree\lib\tokenizer133060718485749388 1
-93E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\favicon.8b2f57bf.png133065034854630095 0
+93E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\favicon.8b2f57bf.png133069619402279845 0
 107E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\css-tree\lib\syntax\atrule133060718485533611 1
 124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\async-iterator-indexed.js133060788745589626 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\css-win32-x64-msvc\README.md133060718135414733 0
@@ -3770,6 +3771,8 @@
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\json\stringify.js133060788797991462 0
 125E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\array\virtual\reduce-right.js133060788793169772 0
 121E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\instance\code-point-at.js133060788747185798 0
+115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\instance\entries.js133060788754423208 0
+112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\math-log1p.js133060788790522851 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\instance\every.js133060788765723827 0
 118E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\instance\find-index.js133060788767775238 0
 123E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\stable\instance\find-last-index.js133060788768291369 0
@@ -4501,7 +4504,7 @@
 116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\array-includes.js133060788745075208 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\array-iteration.js133060788745105266 0
 134E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\array-method-has-species-support.js133060788745155612 0
-94E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.e37f48ea.js.map133065034950347217 0
+94E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.e37f48ea.js.map133069619771271827 0
 120E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\node-resolver-core\package.json133060718383005939 0
 124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\array-method-is-strict.js133060788745165578 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\array-reduce.js133060788745175874 0
@@ -4610,7 +4613,7 @@
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\math-expm1.js133060788790459154 0
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\wordwrap.js133060718538348469 0
 123E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\number\is-safe-integer.js133060788787174637 0
-91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\icons.21bad73c.svg133065034854601022 0
+91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\icons.21bad73c.svg133069619402279845 0
 107E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\string\index.js133060788783858136 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\math-fround.js133060788790501686 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\math-log10.js133060788790511666 0
@@ -4625,7 +4628,7 @@
 126E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\abortcontroller-polyfill\dist\cjs-ponyfill.js133060718317906342 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\regions\LV.js133060718530657647 0
 124E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\new-promise-capability.js133060788790899588 0
-91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\icons.dfd7a6db.svg133065034857207196 0
+91E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\icons.dfd7a6db.svg133069619401798898 0
 142E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias133060718485334139 1
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\regions\TW.js133060718537267860 0
 118E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\internals\number-is-finite.js133060788791017605 0
@@ -4924,7 +4927,6 @@
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\promise\index.js133060788784431177 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\iterator\indexed.js133060788786022880 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\observable\index.js133060788784421924 0
-116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\unique-by.js133060788803248654 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\object\assign.js133060788745471234 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\iterator\some.js133060788796775783 0
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\full\object\define-property.js133060788751659221 0
@@ -5475,6 +5477,7 @@
 111E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\some.js133060788796664090 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@lezer\common\dist\parse.d.ts133060718319228447 0
 116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\to-sorted.js133060788801527358 0
+116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\unique-by.js133060788803248654 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\unshift.js133060788803408935 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\features\array\values.js133060788804223412 0
 104E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\watcher\LICENSE133060718116445397 0
@@ -5616,7 +5619,7 @@
 125E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\css-namespaces.js133060718523831978 0
 116E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\string\virtual\anchor.js133060788744289118 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\string\virtual\at.js133060788745825795 0
-90E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\logo.726d37a8.png133065034865609293 0
+90E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\logo.726d37a8.png133069619401768978 0
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\string\virtual\blink.js133060788746415378 0
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\caniuse-lite\data\features\stream.js133060718536277695 0
 114E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\string\virtual\bold.js133060788746683971 0
@@ -5768,7 +5771,6 @@
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array-buffer\constructor.js133060788749018835 0
 113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array-buffer\index.js133060788783663578 0
 115E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array-buffer\is-view.js133060788787346869 0
-113E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array-buffer\slice.js133060788796318015 0
 103E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array\at.js133060788745785811 0
 112E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array\copy-within.js133060788749779506 0
 106E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\core-js\es\array\every.js133060788765272903 0
@@ -6927,7 +6929,7 @@
 117E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_new_arrow_check.js133060718370071227 0
 119E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_non_iterable_rest.js133060718370170959 0
 127E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_object_without_properties.js133060718370988900 0
-90E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.e37f48ea.js133065034950337241 0
+90E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.e37f48ea.js133069619771251869 0
 133E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_object_without_properties_loose.js133060718370690335 0
 110E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@parcel\workers\lib\Handle.js133060718336514201 0
 129E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\@swc\helpers\lib\_possible_constructor_return.js133060718371038956 0
@@ -7633,4 +7635,4 @@
 92E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\.bin\terser133060718541196036 0
 96E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\node_modules\.bin\terser.ps1133060718541196036 0
 94E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.62406edb.js.map133060786904196716 0
-95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.f7626f62.css.map133065034856247960 0
+95E:\my-course-work\javascript-master\projects\forkify\recipe-app-api\dist\index.f7626f62.css.map133069619401828824 0

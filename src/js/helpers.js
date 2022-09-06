@@ -23,4 +23,25 @@ export const getJson = async(url) => {
    }
 }
 
+export const sendJson = async(url, uploadData) => {
+  try {
+    const fetchData = fetch(url, {
+       method: 'post',
+       headers:{
+        'Content-Type' : 'application/json'
+       },
+       body : JSON.stringify(uploadData)
+    })
+
+    const response = await Promise.race([ fetchData , timeout(timeOutSeconds)])
+    const data = await response.json()
+
+    if(!response.ok) throw new Error(`${data.message} (${response.status})`)
+     //data is the result of the promise
+    return data
+  } catch (error) {
+      throw error;
+  }
+}
+
 
